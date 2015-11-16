@@ -1,0 +1,46 @@
+@import "fonts";
+@import "colors";
+
+.navbar-brand{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7.5px;
+}
+
+.login_panel{
+  padding: 10px;
+}
+
+.login_panel .form-group-sm{
+  margin-bottom: 10px;
+}
+
+.navbar{
+  border-radius: 0px !important;
+  background-color: rgba(0,0,0,0.8);
+}
+
+body,html{
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: roboto;
+}
+
+body{
+  padding-top: 80px;
+}
+
+.ash_background{
+  background-color: $color_background_ash;
+}
+
+.footer_wrapper{
+  //border-top:1px solid black;
+  //border-bottom: 1px solid black;
+  background-color: rgba(0,0,0,0.8);
+  color: darkgray;
+}
+
+.footer_title{
+  color:white;
+}

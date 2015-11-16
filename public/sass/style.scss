@@ -1,0 +1,106 @@
+/* 
+    Created on : Nov 11, 2015, 7:22:43 PM
+    Author     : chathura widanage
+    Email      : chathurawidanage@gmail.com
+*/
+
+@import "../bootstrap/stylesheets/bootstrap";
+@import "common";
+body{
+    padding-top: 0 !important;
+}
+
+.segment{
+    width: 100%;
+    height: 100%;
+}
+
+.stat_panels{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stat_panels h3{
+    font-family: roboto-bold;
+}
+
+.search_box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    //top:40%;
+    padding: 12px 25px 12px 25px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+.slogan{
+    //position: absolute;
+    //top:calc(40% + 80px);
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0,0,0,0.2);
+
+}
+
+.segment_content{
+    width: 100%;
+    position: absolute;
+    top:calc(50% + 30px);
+    left: 50%;
+
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.slogan h1{
+    font-size: 60px;
+}
+
+.carousel{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#map{
+    width: 100%;
+    height: 250px;
+    margin: 20px;
+}
+
+.cb_front_des{
+    //background-image: url('../img/abc.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 15px;
+}
+.cb_front_des p{
+    //padding-right: 250px;
+}
+
+.cb_comments{
+    padding-bottom: 15px;
+}
+.cb_comments_block{
+    border-right: 2px solid white;
+}
+
+
+
+//Slider
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}

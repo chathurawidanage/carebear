@@ -1,0 +1,47 @@
+@import "../bootstrap/stylesheets/bootstrap";
+@import "../jrating/jRating.jquery";
+@import "common";
+
+body {
+  background-color: $color_background_ash;
+}
+
+.cb_panel {
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-width: 0px 1px 2px;
+  border-style: solid;
+  border-color: #D8D8D8;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  vertical-align: top;
+  margin-bottom: 15px;
+}
+
+.cb_sr .cb_sr_img {
+  margin-top: 20px;
+  height: 320px;
+  border:2px solid #D8D8D8;
+
+}
+
+.cb_certified_img {
+  margin-top: 20px;
+}
+
+.cb_facilities_list {
+  list-style: none;
+  margin: 10px 0 0 0 ;
+  padding: 0;
+}
+
+.cb_facilities_list li{
+  float: left;
+  width: 12.5%;
+  text-align: center;
+}
